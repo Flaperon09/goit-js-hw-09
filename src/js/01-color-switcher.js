@@ -8,6 +8,9 @@ const startButton = document.querySelector('button[data-start]');
 const stopButton = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
 
+// Переменная таймера
+let timerId = null;
+
 // Начальная установка кнопки Stop в неактивное состояние
 stopButton.setAttribute("disabled", true);
 
