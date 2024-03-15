@@ -69,7 +69,7 @@ class Timer {
       if (deltaTime < 1000) {
         timer.stop();
         // Сделать кнопку Start активной
-        startButton.removeAttribute("disabled");
+        // startButton.removeAttribute("disabled");
         // Сделать поле ввода активным
         inputField.removeAttribute("disabled");
         // Вывести сообщение об окончании отсчёта
